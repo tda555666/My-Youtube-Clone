@@ -24,6 +24,6 @@ app.listen(port, () => {
 app.use(helmet.contentSecurityPolicy({
   directives: {
       defaultSrc: ["'none'"],
-      imgSrc: ["https://my-youtube-clone-backend.vercel.app"]
+      imgSrc: ["https://youtube-clone-backend.vercel.app"]
   }
 }));
