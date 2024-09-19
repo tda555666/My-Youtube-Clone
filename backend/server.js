@@ -21,9 +21,3 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
 
-app.use(helmet.contentSecurityPolicy({
-  directives: {
-      defaultSrc: ["'none'"],
-      imgSrc: ["https://youtube-clone-backend.vercel.app"]
-  }
-}));
