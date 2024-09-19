@@ -20,3 +20,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
+
+app.use(helmet.contentSecurityPolicy({
+  directives: {
+      defaultSrc: ["'none'"],
+      imgSrc: ["https://my-youtube-clone-backend.vercel.app"]
+  }
+}));
