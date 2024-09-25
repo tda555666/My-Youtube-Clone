@@ -15,7 +15,7 @@ const Studio = require("./studio");
 router.use(
   cors({
     // origin: ["https://shubho-youtube-mern.netlify.app"],
-    origin: "https://youtube-clone-delta-coral.vercel.app",
+    origin: ["https://youtube-clone-delta-coral.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
   })
