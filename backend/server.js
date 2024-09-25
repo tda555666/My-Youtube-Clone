@@ -7,7 +7,7 @@ var cors = require('cors')
 const bodyParser = require("body-parser");
 require('dotenv')
 
-app.use(cors({credentials:true,origin:'https://youtube-clone-delta-coral.vercel.app'}));
+app.use(cors({credentials:true,origin:'http://localhost:5173'}));
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, "public")));
 
