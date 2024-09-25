@@ -21,7 +21,7 @@ import { GrUndo } from "react-icons/gr";
 
 function VideoDetails() {
   // const backendURL = "https://youtube-clone-mern-backend.vercel.app"
-  const backendURL = "https://youtube-clone-backend-peach.vercel.app/";
+  const backendURL = "https://youtube-clone-backend-peach.vercel.app";
   const { id } = useParams();
   const [videodata, setVideoData] = useState();
   const [previewTitle, setPreviewTitle] = useState("");

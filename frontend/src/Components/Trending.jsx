@@ -13,7 +13,7 @@ import { useSelector } from "react-redux";
 
 function Trending() {
   // const backendURL = "https://youtube-clone-mern-backend.vercel.app";
-  const backendURL = "https://youtube-clone-backend-peach.vercel.app/";
+  const backendURL = "https://youtube-clone-backend-peach.vercel.app";
   const [trendingVideos, setTrendingVideos] = useState([]);
   const [menuClicked, setMenuClicked] = useState(() => {
     const menu = localStorage.getItem("menuClicked");

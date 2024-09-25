@@ -12,7 +12,7 @@ import { useSelector } from "react-redux";
 
 function Basic() {
   // const backendURL = "https://youtube-clone-mern-backend.vercel.app"
-  const backendURL = "https://youtube-clone-backend-peach.vercel.app/";
+  const backendURL = "https://youtube-clone-backend-peach.vercel.app";
   const [channelName, setChannelName] = useState();
   const [channelDescription, setChannelDescription] = useState();
   const [channelID, setChannelID] = useState("");

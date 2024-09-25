@@ -33,7 +33,7 @@ import LanguageIcon from "@mui/icons-material/Language";
 
 function Studio() {
   // const backendURL = "https://youtube-clone-mern-backend.vercel.app"
-  const backendURL = "https://youtube-clone-backend-peach.vercel.app/";
+  const backendURL = "https://youtube-clone-backend-peach.vercel.app";
   const [isChannel, setisChannel] = useState();
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedThumbnail, setSelectedThumbnail] = useState(null);

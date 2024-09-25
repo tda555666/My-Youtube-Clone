@@ -12,7 +12,7 @@ import { useSelector } from "react-redux";
 
 function Subscriptions() {
   // const backendURL = "https://youtube-clone-mern-backend.vercel.app";
-  const backendURL = "https://youtube-clone-backend-peach.vercel.app/";
+  const backendURL = "https://youtube-clone-backend-peach.vercel.app";
   const [subscriptions, setSubscriptions] = useState([]);
   const [subsVideos, setSubsVideos] = useState([]);
   const [menuClicked, setMenuClicked] = useState(() => {

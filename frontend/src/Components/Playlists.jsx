@@ -26,7 +26,7 @@ import { useSelector } from "react-redux";
 
 function Playlists() {
   // const backendURL = "https://youtube-clone-mern-backend.vercel.app"
-  const backendURL = "https://youtube-clone-backend-peach.vercel.app/";
+  const backendURL = "https://youtube-clone-backend-peach.vercel.app";
   const { id } = useParams();
   const [menuClicked, setMenuClicked] = useState(() => {
     const menu = localStorage.getItem("menuClicked");
