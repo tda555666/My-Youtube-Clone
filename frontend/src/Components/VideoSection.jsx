@@ -37,7 +37,7 @@ import { useSelector } from "react-redux";
 
 function VideoSection() {
   // const backendURL = "https://youtube-clone-mern-backend.vercel.app";
-  const backendURL = "http://localhost:3000";
+  const backendURL = "https://youtube-clone-backend-peach.vercel.app";
   const { id } = useParams();
   const [videoData, setVideoData] = useState(null);
   const [channelName, setChannelName] = useState();

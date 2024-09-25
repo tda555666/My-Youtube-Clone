@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function Reset() {
   // const backendURL = "https://youtube-clone-mern-backend.vercel.app"
-  const backendURL = "http://localhost:3000";
+  const backendURL = "https://youtube-clone-backend-peach.vercel.app";
   const [email, setEmail] = useState("");
   const [BtnLoading, setBtnLoading] = useState(false);
   const [theme, setTheme] = useState(() => {

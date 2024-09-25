@@ -38,7 +38,7 @@ import { useSelector } from "react-redux";
 
 function LeftPanel() {
   // const backendURL = "https://youtube-clone-mern-backend.vercel.app"
-  const backendURL = "http://localhost:3000";
+  const backendURL = "https://youtube-clone-backend-peach.vercel.app";
   const [menuClicked, setMenuClicked] = useState(() => {
     const menu = localStorage.getItem("menuClicked");
     return menu ? JSON.parse(menu) : false;

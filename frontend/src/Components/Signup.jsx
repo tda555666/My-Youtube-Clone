@@ -6,7 +6,7 @@ import axios from "axios"
 
 function Signup() {
   // const backendURL = "https://youtube-clone-mern-backend.vercel.app"
-  const backendURL = "http://localhost:3000";
+  const backendURL = "https://youtube-clone-backend-peach.vercel.app";
   const [data, setData] = useState({});
   const [theme, setTheme] = useState(() => {
     const Dark = localStorage.getItem("Dark");
