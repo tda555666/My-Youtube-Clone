@@ -12,7 +12,7 @@ import { useSelector } from "react-redux";
 
 function ChannelHome(prop) {
   // const backendURL = "https://youtube-clone-mern-backend.vercel.app"
-  const backendURL = "https://youtube-clone-backend-peach.vercel.app"
+  const backendURL = "http://localhost:3000"
   const [myVideos, setMyVideos] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showHome, setShowHome] = useState(false);

@@ -13,7 +13,7 @@ import { useSelector } from "react-redux";
 
 function Trending() {
   // const backendURL = "https://youtube-clone-mern-backend.vercel.app";
-  const backendURL = "https://youtube-clone-backend-peach.vercel.app";
+  const backendURL = "http://localhost:3000";
   const [trendingVideos, setTrendingVideos] = useState([]);
   const [menuClicked, setMenuClicked] = useState(() => {
     const menu = localStorage.getItem("menuClicked");
@@ -50,7 +50,7 @@ function Trending() {
     const getTrending = async () => {
       try {
         const response = await fetch(
-          "https://youtube-clone-mern-backend.vercel.app/gettrending"
+          "https://youtube-clone-backend-peach.vercel.app/gettrending"
         );
         const trending = await response.json();
         if (trending !== "NO DATA") {
