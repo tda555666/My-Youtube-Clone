@@ -11,7 +11,7 @@ const initialState = {
 export const fetchUserData = createAsyncThunk(
   "user/fetchUserData",
   async () => {
-    const response = await fetch("https://youtube-clone-delta-coral.vercel.app/userdata", {
+    const response = await fetch("https://youtube-clone-backend-peach.vercel.app/userdata", {
       credentials: "include",
     });
     const data = await response.json();
